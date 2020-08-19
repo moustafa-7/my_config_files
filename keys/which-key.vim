@@ -44,7 +44,7 @@ let g:which_key_map['q'] = [ 'q'                                  , 'quit' ]
 let g:which_key_map['r'] = [ ':RnvimrToggle'                      , 'ranger' ]
 let g:which_key_map['u'] = [ ':UndotreeToggle'                    , 'undo tree']
 let g:which_key_map['v'] = [ '<C-W>v'                             , 'split right']
-let g:which_key_map['W'] = [ 'w'                                  , 'write' ]
+let g:which_key_map['w'] = [ 'w'                                  , 'write' ]
 let g:which_key_map['z'] = [ 'Goyo'                               , 'zen' ]
 
 " Group mappings
@@ -263,7 +263,7 @@ let g:which_key_map.T = {
       \ }
 
 " w is for wiki
-let g:which_key_map.w = {
+let g:which_key_map.W = {
       \ 'name' : '+wiki' ,
       \ 'w' : ['<Plug>VimwikiIndex'                              , 'ncdu'],
       \ 'n' : ['<plug>(wiki-open)'                              , 'ncdu'],
