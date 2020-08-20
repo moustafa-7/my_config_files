@@ -67,3 +67,9 @@ nnoremap <silent> <M-l>    :vertical resize +2<CR>
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
+
+
+" Alt + Backspace to delete previous word
+inoremap <M-BS> <C-w> 
+
+
