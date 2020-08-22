@@ -70,8 +70,8 @@ inoremap <expr> <c-k> ("\<C-p>")
 
 
 " Alt + Backspace to delete previous word
-inoremap <M-BS> <C-w> 
-inoremap <CapsLock-BS> <C-w> 
+inoremap <M-BS> <C-w>
+inoremap <CapsLock-BS> <C-w>
 
 " Mapping of Caps-lock to CTRL
 vnoremap <CapsLock> <C>
@@ -79,5 +79,4 @@ inoremap <CapsLock> <M>
 nnoremap <CapsLock> <C>
 tnoremap <CapsLock> <C>
 xnoremap <CapsLock> <C>
-
 
