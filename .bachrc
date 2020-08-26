@@ -168,3 +168,10 @@ export NVM_DIR="$HOME/.nvm"
 
 # binding  
 bind '"\x08":backward-kill-word'
+
+# tmux whenever we start the terminal
+tmux source-file ~/.tmux.conf
+tmux 
+
+# don't show computer name and user name in the terminal
+# export PS1="\W \$"
