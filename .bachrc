@@ -180,3 +180,12 @@ bind '"\x08":backward-kill-word'
 # export PS1="\W \$"
 
 # source ~/.profile
+
+
+
+
+
+
+
+
+

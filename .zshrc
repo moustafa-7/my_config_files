@@ -1,3 +1,6 @@
+#tmux 
+tmux source-file ~/.tmux.conf
+tmux
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -84,10 +87,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
 plugins=(
   git 
+  zsh-syntax-highlighting
   zsh-autosuggestions 
-  zsh-syntax-highlighting)
+  z)
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -126,10 +132,17 @@ export NODE_PATH=$NODE_PATH:$HOME/.npm-global/lib/node_modules
 export JAVA_HOME=/usr/java/latest
 export PATH=$JAVA_HOME/bin:~/.npm-global/bin:$HOME/bin:/usr/local/bin:$PATH
 
+
+# tmux stuff
+# tmux source-file ~/.tmux.conf
 # Add exports from your profile
 source ~/.profile
-
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+POWERLEVEL9K_DEBUG_ISSUE_315=true
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+
