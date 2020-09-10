@@ -107,7 +107,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'moll/vim-bbye'
   " Plugin Graveyard
-  Plug 'nathanaelkane/vim-indent-guides'
+  " Plug 'nathanaelkane/vim-indent-guides'
+  " Plug 'thiagoalessio/rainbow_levels.vim'
 
 
   " jsx syntax support
