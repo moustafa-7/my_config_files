@@ -90,9 +90,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
   git 
-  zsh-syntax-highlighting
   zsh-autosuggestions 
-  z)
+  z
+  zsh-syntax-highlighting
+  celery
+  tmux
+  )
+
 
 
 source $ZSH/oh-my-zsh.sh

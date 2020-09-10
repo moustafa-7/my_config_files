@@ -1,6 +1,5 @@
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
-
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 " set nowrap                              " Display long lines as just one line
@@ -33,6 +32,10 @@ set shortmess+=c                        " Don't pass messages to |ins-completion
 set signcolumn=yes                      " Always show the signcolumn, otherwise it would shift the text each time
 set updatetime=300                      " Faster completion
 set timeoutlen=100                      " By default timeoutlen is 1000 ms
+
+" scroll offset
+set scrolloff=10
+
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
 set guifont=Fira\ Code\ Nerd\ Font
