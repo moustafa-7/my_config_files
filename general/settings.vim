@@ -51,3 +51,15 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 cmap w!! w !sudo tee %
 
 
+
+
+
+
+
+
+" me trying to learn
+
+
+
+
+

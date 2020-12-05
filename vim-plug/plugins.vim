@@ -33,7 +33,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'luochen1990/rainbow'
   " Better Syntax Support
-  Plug 'sheerun/vim-polyglot'
+  " Plug 'sheerun/vim-polyglot'
   " Cool Icons
   Plug 'ryanoasis/vim-devicons'
   " Auto pairs for '(' '[' '{'
@@ -41,7 +41,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Closetags
   Plug 'alvan/vim-closetag'
   " Themes
-  Plug 'christianchiarulli/onedark.vim'
+  " Plug 'christianchiarulli/onedark.vim'
+  Plug 'joshdick/onedark.vim'
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Status Line
@@ -95,6 +96,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'wesQ3/vim-windowswap'
   " Markdown Preview
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+  " Plug 'suan/vim-instant-markdown'
   " Easily Create Gists
   Plug 'mattn/vim-gist'
   Plug 'mattn/webapi-vim'
@@ -106,6 +108,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Multiple Cursors
   Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'moll/vim-bbye'
+
+
+  " my Additions
+  Plug 'thaerkh/vim-indentguides'
+
+  
+  Plug 'lervag/vimtex'
+
+  " live latex preview
+  Plug 'ying17zi/vim-live-latex-preview'
+
+
+  Plug 'oblitum/youcompleteme'
+
+
   " Plugin Graveyard
   " Plug 'nathanaelkane/vim-indent-guides'
   " Plug 'thiagoalessio/rainbow_levels.vim'
@@ -119,6 +136,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Plug 'terryma/vim-multiple-cursors'
   " Plug 'kaicataldo/material.vim'
   " Plug 'NLKNguyen/papercolor-theme'
+
   " Plug 'tomasiser/vim-code-dark'
   " Vim Wiki
   " Plug 'https://github.com/vimwiki/vimwiki.git'
