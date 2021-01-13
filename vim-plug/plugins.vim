@@ -40,6 +40,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
   " Closetags
   Plug 'alvan/vim-closetag'
+
+
+
   " Themes
   " Plug 'christianchiarulli/onedark.vim'
   Plug 'joshdick/onedark.vim'
@@ -57,6 +60,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-rhubarb'
   Plug 'junegunn/gv.vim'
   Plug 'rhysd/git-messenger.vim'
+
   " Terminal
   Plug 'voldikss/vim-floaterm'
   " Start Screen
@@ -72,8 +76,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mattn/emmet-vim'
   " Interactive code
   Plug 'metakirby5/codi.vim'
+
   " Debugging
-  " Plug 'puremourning/vimspector'
+  Plug 'puremourning/vimspector'
   " Better tabline
   Plug 'mg979/vim-xtabline'
   " undo time travel
@@ -117,12 +122,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'lervag/vimtex'
 
   " live latex preview
-  Plug 'ying17zi/vim-live-latex-preview'
+  " Plug 'ying17zi/vim-live-latex-preview'
+  " Plug 'xuhdev/vim-latex-live-preview'
+  Plug 'lervag/vimtex'
 
 
   Plug 'oblitum/youcompleteme'
 
+  Plug 'machakann/vim-highlightedyank'
 
+
+  Plug 'petrushka/vim-opencl'
   " Plugin Graveyard
   " Plug 'nathanaelkane/vim-indent-guides'
   " Plug 'thiagoalessio/rainbow_levels.vim'

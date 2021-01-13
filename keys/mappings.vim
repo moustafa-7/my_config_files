@@ -5,7 +5,9 @@ imap <C-j> <C-w>j
 imap <C-k> <C-w>k
 imap <C-l> <C-w>l
 " g Leader key
-let mapleader=" "
+let mapleader = " "
+let maplocalleader = " "
+
 " let localleader=" "
 nnoremap <Space> <Nop>
 
@@ -68,18 +70,18 @@ nnoremap <silent> <M-l>    :vertical resize +2<CR>
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
-
 " Alt + Backspace to delete previous word
 inoremap <M-BS> <C-w>
 inoremap <CapsLock-BS> <C-w>
 
 
+
 " Mapping of Caps-lock to CTRL
-vnoremap <CapsLock> <C>
-inoremap <CapsLock> <M>
-nnoremap <CapsLock> <C>
-tnoremap <CapsLock> <C>
-xnoremap <CapsLock> <C>
+" vnoremap <CapsLock> <C>
+" inoremap <CapsLock> <M>
+" nnoremap <CapsLock> <C>
+" tnoremap <CapsLock> <C>
+" xnoremap <CapsLock> <C>
 
 
 

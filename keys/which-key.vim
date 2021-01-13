@@ -9,7 +9,7 @@ let g:which_key_map =  {}
 " Define a separator
 let g:which_key_sep = '→'
 " set timeoutlen=100
-
+" :let maplocalleader = "\\"
 " Coc Search & refactor
 nnoremap <leader>? :CocSearch <C-R>=expand("<cword>")<CR><CR>
 let g:which_key_map['?'] = 'search word'
@@ -56,9 +56,9 @@ let g:which_key_map.a = {
       \ 'e' : [':CocCommand explorer'    , 'explorer'],
       \ 'l' : [':Bracey'                 , 'start live server'],
       \ 'L' : [':BraceyStop'             , 'stop live server'],
+      \ 'n' : [':set nonumber!'          , 'line-numbers'],
       \ 'm' : [':MarkdownPreview'        , 'markdown preview'],
       \ 'M' : [':MarkdownPreviewStop'    , 'markdown preview stop'],
-      \ 'n' : [':set nonumber!'          , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'  , 'relative line nums'],
       \ 's' : [':let @/ = ""'            , 'remove search highlight'],
       \ 't' : [':FloatermToggle'         , 'terminal'],
@@ -188,6 +188,7 @@ let g:which_key_map.G = {
       \ 'P' : [':Gist -p'                          , 'post private gist '],
       \ }
 
+      " \ 'l' : ['<Plug>(coc-codelens-action)'         , 'code lens'],
 " l is for language server protocol
 let g:which_key_map.l = {
       \ 'name' : '+lsp' ,
@@ -207,7 +208,6 @@ let g:which_key_map.l = {
       \ 'i' : ['<Plug>(coc-implementation)'          , 'implementation'],
       \ 'I' : [':CocList diagnostics'                , 'diagnostics'],
       \ 'j' : ['<Plug>(coc-float-jump)'              , 'float jump'],
-      \ 'l' : ['<Plug>(coc-codelens-action)'         , 'code lens'],
       \ 'n' : ['<Plug>(coc-diagnostic-next)'         , 'next diagnostic'],
       \ 'N' : ['<Plug>(coc-diagnostic-next-error)'   , 'next error'],
       \ 'o' : ['<Plug>(coc-openlink)'                , 'open link'],
