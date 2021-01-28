@@ -34,8 +34,6 @@ nnoremap <silent> <S-TAB> :bprevious<CR>
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 
-" Alternate way to save
-nnoremap <silent> <C-s> :w<CR>
 " Alternate way to quit
 nnoremap <silent> <C-Q> :wq!<CR>
 " Use control-c instead of escape
@@ -76,12 +74,7 @@ inoremap <CapsLock-BS> <C-w>
 
 
 
-" Mapping of Caps-lock to CTRL
-" vnoremap <CapsLock> <C>
-" inoremap <CapsLock> <M>
-" nnoremap <CapsLock> <C>
-" tnoremap <CapsLock> <C>
-" xnoremap <CapsLock> <C>
-
+" source vimrc file
+nnoremap <silent> <C-s> :source $MYVIMRC<CR> :echo "VIMRC sourced successfuly"<CR>
 
 
