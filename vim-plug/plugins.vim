@@ -41,7 +41,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Closetags
   Plug 'alvan/vim-closetag'
 
-
+  " Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --tern-completer' }
 
   " Themes
   " Plug 'christianchiarulli/onedark.vim'
@@ -78,7 +78,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'metakirby5/codi.vim'
 
   " Debugging
-  Plug 'puremourning/vimspector'
+  " Plug 'puremourning/vimspector'
   " Better tabline
   Plug 'mg979/vim-xtabline'
   " undo time travel
@@ -115,34 +115,34 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'moll/vim-bbye'
 
 
-  " my Additions
-  Plug 'thaerkh/vim-indentguides'
+  " " my Additions
+  " Plug 'thaerkh/vim-indentguides'
 
   
-  Plug 'lervag/vimtex'
+  " Plug 'lervag/vimtex'
 
-  " live latex preview
-  " Plug 'ying17zi/vim-live-latex-preview'
-  " Plug 'xuhdev/vim-latex-live-preview'
-  Plug 'lervag/vimtex'
-
-
-  Plug 'oblitum/youcompleteme'
-
-  Plug 'machakann/vim-highlightedyank'
+  " " live latex preview
+  " " Plug 'ying17zi/vim-live-latex-preview'
+  " " Plug 'xuhdev/vim-latex-live-preview'
+  " Plug 'lervag/vimtex'
 
 
-  Plug 'petrushka/vim-opencl'
+  " " Plug 'oblitum/youcompleteme'
+
+  " Plug 'machakann/vim-highlightedyank'
+
+
+  " Plug 'petrushka/vim-opencl'
   " Plugin Graveyard
   " Plug 'nathanaelkane/vim-indent-guides'
   " Plug 'thiagoalessio/rainbow_levels.vim'
 
 
-  " jsx syntax support
+  " " jsx syntax support
   " Plug 'maxmellon/vim-jsx-pretty'
   " Typescript syntax
   " Plug 'HerringtonDarkholme/yats.vim'
-  " Multiple Cursors
+  " " Multiple Cursors
   " Plug 'terryma/vim-multiple-cursors'
   " Plug 'kaicataldo/material.vim'
   " Plug 'NLKNguyen/papercolor-theme'
